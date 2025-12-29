@@ -9,10 +9,16 @@
   <title>Rotana NOB | Portfolio & Resume</title>
   <meta name="description" content="Portfolio + Resume of Rotana NOB" />
   <link rel="preload" href="style.css" as="style">
+</link>
   <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Angkor & Khmer OS -->
+  <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Khmer+OS:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Feather Icons (CDN) -->
+  <script src="https://unpkg.com/feather-icons"></script>
   <script defer src="script.js"></script>
 </head>
 <body>
+  
   <!-- Animated Weather Background -->
   <canvas id="bg-canvas" aria-hidden="true"></canvas>
 
@@ -29,9 +35,18 @@
       </div>
 
       <div class="mode-buttons">
-        <button id="dark-toggle" class="btn icon" aria-label="Toggle dark mode" title="Dark / Light">🌙</button>
-        <button id="weather-toggle" class="btn icon" aria-label="Toggle weather effect" title="Rain / Snow / Both">🌧️❄️</button>
-        <button id="sound-toggle" class="btn icon" aria-label="Toggle ambient sound" title="Sound On/Off">🔇</button>
+        <button id="dark-toggle" class="btn icon mode-btn" aria-label="Toggle dark mode" title="Dark / Light">
+          <i data-feather="moon" aria-hidden="true"></i>
+          <span class="mode-label">Dark</span>
+        </button>
+        <button id="weather-toggle" class="btn icon mode-btn" aria-label="Toggle weather effect" title="Rain / Snow / Both">
+          <i data-feather="cloud-rain" aria-hidden="true"></i>
+          <span class="mode-label">Weather</span>
+        </button>
+        <button id="sound-toggle" class="btn icon mode-btn" aria-label="Toggle ambient sound" title="Sound On/Off">
+          <i data-feather="volume-x" aria-hidden="true"></i>
+          <span class="mode-label">Sound</span>
+        </button>
       </div>
 
       <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
@@ -39,12 +54,12 @@
       </button>
 
       <ul id="nav-links" class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home" aria-label="Home" title="Home"><i data-feather="home" aria-hidden="true"></i><span class="nav-label">Home</span></a></li>
+        <li><a href="#about" aria-label="About" title="About"><i data-feather="user" aria-hidden="true"></i><span class="nav-label">About</span></a></li>
+        <li><a href="#skills" aria-label="Skills" title="Skills"><i data-feather="layers" aria-hidden="true"></i><span class="nav-label">Skills</span></a></li>
+        <li><a href="#projects" aria-label="Projects" title="Projects"><i data-feather="grid" aria-hidden="true"></i><span class="nav-label">Projects</span></a></li>
+        <li><a href="#resume" aria-label="Resume" title="Resume"><i data-feather="file-text" aria-hidden="true"></i><span class="nav-label">Resume</span></a></li>
+        <li><a href="#contact" aria-label="Contact" title="Contact"><i data-feather="mail" aria-hidden="true"></i><span class="nav-label">Contact</span></a></li>
       </ul>
     </nav>
   </header>
@@ -134,6 +149,10 @@ I combine technology and creativity to deliver solutions that are not only funct
             <h3>Portfolio Website</h3>
             <p>Website E-learning, Dark Mode, Course,Favorite,Major,Search Bar , Logout,Profile-Sitting and Rigister Name .</p>
             <div class="tags"><span>database</span><span> server </span><span>JS and backend.</span></div>
+            <div class="project-actions">
+              <a class="btn ghost live-link" href="#" target="_blank" rel="noreferrer">Show Link</a>
+              <button class="btn" data-gallery="assets/project1.png,assets/vdo/tver%20%20hz.mp4">Show Demo</button>
+            </div>
           </div>
         </article>
 
@@ -143,6 +162,10 @@ I combine technology and creativity to deliver solutions that are not only funct
             <h3>App E-learning welcome page </h3>
             <p>Modern portfolio with dark mode, animations, and responsive layout.</p>
             <div class="tags"><span>JavaScript</span><span>LocalStorage</span></div>
+            <div class="project-actions">
+              <a class="btn ghost live-link" href="#" target="_blank" rel="noreferrer">Show Link</a>
+              <button class="btn" data-gallery="assets/project2.png">Show Demo</button>
+            </div>
           </div>
         </article>
 
@@ -152,6 +175,10 @@ I combine technology and creativity to deliver solutions that are not only funct
             <h3>App Login and Rigister</h3>
             <p>Simple, fast task manager with local storage and filters.</p>
             <div class="tags"><span>JavaScript</span><span>LocalStorage</span></div>
+            <div class="project-actions">
+              <a class="btn ghost live-link" href="#" target="_blank" rel="noreferrer">Show Link</a>
+              <button class="btn" data-gallery="assets/project3.png">Show Demo</button>
+            </div>
           </div>
         </article>
         
@@ -172,6 +199,66 @@ User Account → Login/Register, Wishlist, Order History
 
 Admin Dashboard → CRUD Cars, Manage Orders & Users.</p>
             <div class="tags"><span> Frontend (User Interface) </span><span> Backend (Server & Logic)  </span> <span>​​ Database</span>​</div>
+            <div class="project-actions">
+              <a class="btn ghost live-link" href="#" target="_blank" rel="noreferrer">Show Link</a>
+              <button class="btn" data-gallery="assets/project5.png">Show Demo</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Example Project: Video Editor Promo -->
+        <article class="card project">
+          <img src="assets/profile0.jpg" alt="Video Editor Promo">
+          <div class="project-body">
+            <h3>Video Editor Promo</h3>
+            <p>Promo video for a video editing service, featuring transitions, effects, and branding overlays.</p>
+            <div class="tags"><span>Video Editing</span><span>Branding</span><span>Promo</span></div>
+            <div class="project-actions">
+              <a class="btn ghost live-link" href="#" target="_blank" rel="noreferrer">Show Link</a>
+              <button class="btn" data-gallery="assets/profile0.jpg,assets/vdo/tver%20hz%203.mp4">Show Demo</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Example Project: Photography Portfolio -->
+        <article class="card project">
+          <img src="assets/profile.jpg" alt="Photography Portfolio">
+          <div class="project-body">
+            <h3>Photography Portfolio</h3>
+            <p>A showcase of portrait and event photography, highlighting composition and lighting skills.</p>
+            <div class="tags"><span>Photography</span><span>Portfolio</span><span>Creative</span></div>
+            <div class="project-actions">
+              <a class="btn ghost live-link" href="#" target="_blank" rel="noreferrer">Show Link</a>
+              <button class="btn" data-gallery="assets/profile.jpg">Show Demo</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Example Project: Learning App Demo -->
+        <article class="card project">
+          <img src="assets/project4.png" alt="Learning App Demo">
+          <div class="project-body">
+            <h3>Learning App Demo</h3>
+            <p>Interactive app for e-learning, with video lessons and quizzes for students.</p>
+            <div class="tags"><span>App</span><span>E-learning</span><span>Quiz</span></div>
+            <div class="project-actions">
+              <a class="btn ghost live-link" href="#" target="_blank" rel="noreferrer">Show Link</a>
+              <button class="btn" data-gallery="assets/project4.png,assets/vdo/tver%20hz%201.mp4">Show Demo</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Example Project: Social Media Poster -->
+        <article class="card project">
+          <img src="assets/project3.png" alt="Social Media Poster">
+          <div class="project-body">
+            <h3>Social Media Poster</h3>
+            <p>Creative poster design for social media campaigns, using modern layouts and vibrant colors.</p>
+            <div class="tags"><span>Design</span><span>Poster</span><span>Social Media</span></div>
+            <div class="project-actions">
+              <a class="btn ghost live-link" href="#" target="_blank" rel="noreferrer">Show Link</a>
+              <button class="btn" data-gallery="assets/project3.png">Show Demo</button>
+            </div>
           </div>
         </article>
 
@@ -342,10 +429,20 @@ Websites: Portfolio, E-commerce, Company , <br>Web Applications: Dashboard, ERP,
 
     </div>
   </div>
-</section>
-<main></main>
+ </section>
+</main>
 
   <!-- Footer -->
+  <!-- Demo Modal -->
+  <div id="demo-modal" class="demo-modal" aria-hidden="true">
+    <div class="demo-backdrop" data-close></div>
+    <div class="demo-content" role="dialog" aria-modal="true" aria-label="Project demo">
+      <button class="demo-close" aria-label="Close demo" data-close>&times;</button>
+      <div class="demo-viewer"></div>
+      <div class="demo-thumbs"></div>
+    </div>
+  </div>
+
   <footer class="footer">
     <p>© 2025 Rotana NOB — All rights reserved.</p>
   </footer>
