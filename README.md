@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Nob Rotana
+#  Hello, I'm Nob Rotana
 
 ### 💻 Full-Stack Web Developer · Freelancer · Computer Science Student
 
