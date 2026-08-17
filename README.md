@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Rotana 👋
+# Hi, I'm Rotana NOB
 
 ### Full-Stack Web Developer · Freelancer · Computer Science Student
 
@@ -12,7 +12,7 @@ I'm a developer from 🇰🇭 **Cambodia** who enjoys turning ideas into modern,
 
 ## About Me
 
-- 🎓 Computer Science student at **Asia Euro University**, Phnom Penh
+- 🎓 Computer Science student at **Asia Euro University** And  Managements information systems student at **SETEC Institute**  Phnom Penh
 - 💼 Freelance web developer, currently building **YoungPOS** as a startup product
 - 🇰🇭 Focused on building practical, locally relevant software for Cambodian businesses
 - 🧠 Comfortable across the stack — frontend, backend, databases, and deployment
@@ -29,14 +29,16 @@ I'm a developer from 🇰🇭 **Cambodia** who enjoys turning ideas into modern,
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
+*AI TOOL HELP* 
 **Backend**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white) 
+
+**WITH AI TOOL** 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 
