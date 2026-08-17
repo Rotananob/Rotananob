@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Rotana NOB
+# Hello, I'm Rotana NOB
 
 ### Full-Stack Web Developer · Freelancer · Computer Science Student
 
