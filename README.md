@@ -2,7 +2,7 @@
 
 # Hello, I'm Rotana NOB
 
-### Full-Stack Web Developer · Freelancer · Computer Science Student
+###  Web Developer · Freelancer · Computer Science Student
 
 I'm a developer from 🇰🇭 **Cambodia** who enjoys turning ideas into modern, real-world software — from POS systems to e-learning platforms.
 
